@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --background: #e1e1e9;
+  --background: #cdcdcd;
   --calc-background: #e7e8ee;
   --calc-shadow: 30px 30px 55px #ccc;
   --num-background: linear-gradient(to bottom right, #c8c5d1, #edeef5);
@@ -17,8 +17,9 @@
   --mode-background: #0025;
 }
 [data-theme="dark"] {
+  --background: #3e3e3e;
   --calc-background: #1e212a;
-  --calc-shadow: 30px 30px 55px #888;
+  --calc-shadow: 30px 30px 55px #222;
   --num-background: linear-gradient(to bottom right, #292d38, #3c3c44);
   --num-shadow: inset 1px 1px 1px #393c4a, inset 4px 4px 15px #20232d, 3px 3px 5px #181b24;
   --eql-shadow: inset 1px 1px 2px #f9aa2d99, inset 4px 4px 15px #a54e04, 3px 3px 5px #181b24;
